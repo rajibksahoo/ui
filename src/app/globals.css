@@ -10,7 +10,10 @@
 
 html {
   scroll-behavior: smooth;
-  @apply dark;
+  /* Use the `dark` class on <html> at runtime (Tailwind uses `dark` as a variant).
+     Do not use `@apply dark;` — instead control dark mode by toggling the `dark`
+     class on the root element (see ThemeToggle component). */
+  color-scheme: dark;
 }
 
 html.light {
