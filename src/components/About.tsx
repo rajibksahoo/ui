@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { Badge } from './Badge';
 import { Accordion } from './Accordion';
 
 export function About() {

@@ -131,8 +131,8 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
           {/* What's Next */}
           <div className="bg-slate-800/30 border border-slate-700 rounded-lg p-4">
-            <h4 className="text-sm font-semibold text-slate-300 mb-2">What I'd Improve Next</h4>
-            <p className="text-slate-400 text-sm">{project.whatNext}</p>
+              <h4 className="text-sm font-semibold text-slate-300 mb-2">What I&apos;d Improve Next</h4>
+              <p className="text-slate-400 text-sm">{project.whatNext}</p>
           </div>
 
           {/* Links */}

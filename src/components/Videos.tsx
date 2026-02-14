@@ -3,7 +3,6 @@
 import React from 'react';
 import { videos } from '@/data/content';
 import { Badge } from './Badge';
-import { Button } from './Button';
 import { Play } from 'lucide-react';
 
 export function Videos() {

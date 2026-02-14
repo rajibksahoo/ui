@@ -19,7 +19,7 @@ export function Contact() {
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Get In Touch</h2>
         <p className="text-slate-400 text-lg mb-8">
-          Open to opportunities, collaborations, and technical discussions. Let's connect.
+          Open to opportunities, collaborations, and technical discussions. Let&apos;s connect.
         </p>
 
         {/* Contact Methods */}

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { skills } from '@/data/content';
-import { groupSkillsByCategory, getCategoryLabel, getLevelBadgeColor } from '@/lib/utils';
+import { groupSkillsByCategory, getCategoryLabel } from '@/lib/utils';
 import { Badge } from './Badge';
 
 export function Skills() {

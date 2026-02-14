@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Project } from '@/types';
 import { Badge } from './Badge';
 import { Button } from './Button';
@@ -12,13 +12,9 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, onViewDetails }: ProjectCardProps) {
-  const [hovered, setHovered] = useState(false);
-
   return (
     <div
       className="bg-slate-900/50 border border-slate-800 rounded-lg p-6 hover:border-slate-700 hover:bg-slate-900/80 transition-all duration-300 cursor-pointer group"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
       onClick={() => onViewDetails(project)}
     >
       {/* Featured Badge */}
